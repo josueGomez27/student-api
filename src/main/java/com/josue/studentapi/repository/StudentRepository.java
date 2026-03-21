@@ -13,6 +13,7 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
     // Spring Data JPA genera automáticamente la implementación
     // de estos métodos basándose en el nombre del método
 // hola mundo
+    //hola
     Optional<Student> findByEmail(String email);
 
     List<Student> findByFirstName(String firstName);
