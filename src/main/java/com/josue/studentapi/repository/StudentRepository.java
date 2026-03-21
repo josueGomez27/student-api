@@ -24,3 +24,4 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
 }
 //Josue gei
 //tammy lesbi
+//melany :3
